@@ -1,5 +1,5 @@
 # Developing Software System
-## _The Final Task_-_Ario_Anindito_(VUM_2016082)
+## _The Final Task - Ario Anindito (VUM 2016082)_
 
 This is my final project (Database Library) for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
