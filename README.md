@@ -1,6 +1,8 @@
 # Developing Software System
 ## _The Final Task - Ario Anindito (VUM 2016082)_
 
+Lecturer: Prof Dimitar Karamfilov.
+
 This is my final project for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
 
