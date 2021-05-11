@@ -26,7 +26,7 @@
         <dt class="col-sm-2">
             @if (Model.Images.Any())
             {
-                <img src="/Images/Get?bookId=@Model.BookId&fileName=@Model.Images.FirstOrDefault().FileName" alt="@Model.Images" width="300" height="300">
+                <img src="/images/@Model.BookId/@Model.Images.First().FileName" alt="@Model.Images" width="300" height="300">
             }
             else
             {

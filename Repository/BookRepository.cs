@@ -3,6 +3,7 @@ using DSS_MVC.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -14,10 +15,12 @@ namespace DSS_MVC.Repository
     {
         private DBContext db;
         private IConfiguration _configuration;
-        public BookRepository(DBContext _db, IConfiguration configuration)
+        private readonly IHostEnvironment hostingEnvironment;
+        public BookRepository(DBContext _db, IConfiguration configuration, IHostEnvironment environment)
         {
             db = _db;
             _configuration = configuration;
+            hostingEnvironment = environment;
         }
 
         public IEnumerable<Book> GetBooks => db.Books;
@@ -31,7 +34,9 @@ namespace DSS_MVC.Repository
 
                 if (photo != null)
                 {
-                    string imagesPath = _configuration.GetValue<string>("PaintingPhotosLocation");
+                    //string imagesPath = _configuration.GetValue<string>("PaintingPhotosLocation");
+
+                    var imagesPath = Path.Combine(hostingEnvironment.ContentRootPath, "wwwroot/Images");
 
                     int newImageIndex = 0;
 

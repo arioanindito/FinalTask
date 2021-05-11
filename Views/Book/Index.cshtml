@@ -38,7 +38,7 @@
             <td>
                 @if (book.Images.Any())
                 {
-                    <a asp-action="Details" asp-route-id="@book.BookId"><img src="Images/Get?bookId=@book.BookId&fileName=@book.Images.First().FileName" alt="@book.Images.First().Name" width="50" height="50" /></a>
+                    <a asp-action="Details" asp-route-id="@book.BookId"><img src="/images/@book.BookId/@book.Images.First().FileName" alt="@book.Images.First().Name" width="50" height="50" /></a>
                 }
                 else
                 {
