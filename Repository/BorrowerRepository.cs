@@ -35,7 +35,6 @@ namespace DSS_MVC.Repository
                 db.SaveChanges();
             }
         }
-
         public Borrower GetBorrower(int? ID)
         {
             Borrower dbEntity = db.Borrowers.Include(e => e.Loans)
@@ -44,7 +43,6 @@ namespace DSS_MVC.Repository
                                             .SingleOrDefault(m => m.BorrowerId == ID);
             return dbEntity;
         }
-
         public void Remove(int? ID)
         {
             Borrower dbEntity = db.Borrowers.Find(ID);

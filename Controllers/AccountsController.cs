@@ -19,48 +19,10 @@ namespace DSS_MVC.Controllers
         {
             this.context = context;
         }
-
         public IActionResult Login()
         {
             return View();
         }
-
-        //[HttpPost]
-        //public IActionResult Login(string userName, string password)
-        //{
-        //    if (string.IsNullOrEmpty(userName) || string.IsNullOrEmpty(password))
-        //    {
-        //        return RedirectToAction("Login");
-        //    }
-
-        //    if (userName == "Admin" && password == "password")
-        //    {
-        //        var identity = new ClaimsIdentity(new[] {
-        //            new Claim(ClaimTypes.Name, userName),
-        //            new Claim(ClaimTypes.Role, "Admin")
-        //            }, CookieAuthenticationDefaults.AuthenticationScheme);
-
-        //        var principal = new ClaimsPrincipal(identity);
-        //        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-
-        //        return RedirectToAction("Index", "Home");
-        //    }
-
-        //    if (userName == "User" && password == "password")
-        //    {
-        //        var identity = new ClaimsIdentity(new[] {
-        //            new Claim(ClaimTypes.Name, userName),
-        //            new Claim(ClaimTypes.Role, "User")
-        //            }, CookieAuthenticationDefaults.AuthenticationScheme);
-
-        //        var principal = new ClaimsPrincipal(identity);
-        //        HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal);
-
-        //        return RedirectToAction("Index", "Home");
-        //    }
-
-        //    return RedirectToAction("Login");
-        //}
         [HttpPost]
         public async Task<IActionResult> Login(string userName, string password)
         {
@@ -86,7 +48,6 @@ namespace DSS_MVC.Controllers
 
             return RedirectToAction("Index", "Home");
         }
-
         public IActionResult Logout()
         {
             HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);

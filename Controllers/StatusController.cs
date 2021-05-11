@@ -77,22 +77,5 @@ namespace DSS_MVC.Controllers
             }
             return View(model);
         }
-        //[HttpGet]
-        //public IActionResult Edit(int? ID)
-        //{
-        //    var edited = _Status.GetStatus(ID);
-        //    return View(edited);
-        //}
-        //[HttpPost]
-        //public IActionResult Edit(Status edited, int? ID)
-        //{
-        //    //var status = db.Statuses.FirstOrDefault();
-        //    //db.Statuses.Remove(status);
-        //    _Status.Remove(ID);
-        //    db.Statuses.Add(edited);
-        //    db.SaveChanges();
-        //    return RedirectToAction("Index");
-        //}
-
     }
 }

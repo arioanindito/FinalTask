@@ -64,38 +64,7 @@ namespace DSS_MVC.Repository
                 var dbEntity = db.Books.Find(book.BookId);
                 dbEntity.BookName = book.BookName;
                 dbEntity.ISBN = book.ISBN;
-                //dbEntity.Images = book.Images;
                 db.SaveChanges();
-
-                //if (photo != null)
-                //{
-                    //string imagesPath = _configuration.GetValue<string>("PaintingPhotosLocation");
-
-                    //int newImageIndex = 0;
-
-                    //string directoryPath = Path.Combine(imagesPath, book.BookId.ToString());
-                    //if (!Directory.Exists(directoryPath))
-                    //{
-                    //    Directory.CreateDirectory(directoryPath);
-                    //}
-
-                    //string fileName = string.Format("{0}.jpg", Path.GetFileNameWithoutExtension(Path.GetRandomFileName()));
-                    //string filePath = Path.Combine(directoryPath, fileName);
-
-                    //using (Stream fileStream = new FileStream(filePath, FileMode.Create))
-                    //{
-                    //    photo.CopyTo(fileStream);
-                    //}
-
-                    //Image image = new Image();
-                    //image.BookId = book.BookId;
-                    //image.Index = newImageIndex;
-                    //image.FileName = fileName;
-                    //image.Name = book.BookName;
-                    //db.Images.Add(image);
-
-                    //db.SaveChanges();
-                //}
             }
         }
         public Book GetBook(int? ID)
@@ -105,7 +74,6 @@ namespace DSS_MVC.Repository
                 .Include(s => s.Images)
                 .SingleOrDefault(a => a.BookId == ID);
         }
-
         public void Remove(int? ID)
         {
             Book dbEntity = db.Books.Find(ID);

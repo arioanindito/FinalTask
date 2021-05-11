@@ -30,12 +30,10 @@ namespace DSS_MVC.Repository
                 db.SaveChanges();
             }
         }
-
         public Status GetStatus(int? ID)
         {
             return db.Statuses.Find(ID);
         }
-
         public void Remove(int? ID)
         {
             Status dbEntity = db.Statuses.Find(ID);

@@ -24,8 +24,3 @@ namespace DSS_MVC
                 });
     }
 }
-
-//"ConnectionStr": "Server=LAPTOP-QAE0FLMJ\\SQLEXPRESS;Database=LibraryDB;Trusted_Connection=True;MultipleActiveResultSets=true"
-//"ConnectionStr": "Server=(localdb)\\mssqllocaldb;Database=LibraryDB;Trusted_Connection=True;MultipleActiveResultSets=true"
-
-//"ConnectionStr": "Server=(localdb)\\MSSQLLocalDB;Database=Ario_Assignment4567_LibraryDB;Trusted_Connection=True;MultipleActiveResultSets=true"

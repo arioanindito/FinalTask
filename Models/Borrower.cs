@@ -11,7 +11,7 @@ namespace DSS_MVC.Models
     {
         Male, Female
     }
-    public class Borrower
+    public class Borrower : BaseEntity
     {
         [Key]
         public int BorrowerId { get; set; }

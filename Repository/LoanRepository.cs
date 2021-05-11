@@ -33,15 +33,12 @@ namespace DSS_MVC.Repository
                 db.SaveChanges();
             }
         }
-
         public Loan GetLoan(int? ID)
         {
-            //return db.Loans.Find(ID);
             return db.Loans.Include(e => e.Borrowers)
                 .Include(b => b.Books)
                 .SingleOrDefault(a => a.LoanId == ID);
         }
-
         public void Remove(int? ID)
         {
             Loan dbEntity = db.Loans.Find(ID);

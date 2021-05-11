@@ -19,7 +19,6 @@ namespace DSS_MVC.Controllers
             _configuration = configuration;
             _notFoundImageLocation = Path.Combine(environment.WebRootPath, "Images", "NotFound.png");
         }
-
         public IActionResult Get(int bookId, string fileName)
         {
             string imagesLocation = _configuration.GetValue<string>("PaintingPhotosLocation");

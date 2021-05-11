@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DSS_MVC.Models
 {
-    public class Book
+    public class Book : BaseEntity
     {
         public Book()
         {

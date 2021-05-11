@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DSS_MVC.Models
 {
-    public class Status
+    public class Status : BaseEntity
     {
         [Key]
         public int StatusId { get; set; }

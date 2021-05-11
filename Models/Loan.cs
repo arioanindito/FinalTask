@@ -11,7 +11,7 @@ namespace DSS_MVC.Models
     {
         LikeNew, Good, Average, Fair, Poor
     }
-    public class Loan
+    public class Loan : BaseEntity
     {
         [Key]
         public int LoanId { get; set; }
