@@ -1,5 +1,5 @@
 # Developing Software System
-## _The Final Task_
+## _The Final Task - Ario Anindito (VUM 2016082)_
 
 This is my final project for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
@@ -7,17 +7,23 @@ In order to run the project, please change the string connection to your own ser
 I uploaded my updated database within this project, under the name **Ario_Final.bak**  
 Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, etc.  
 
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
+The project consists of four pages.
+1. Book Overview
+2. Members
+3. Loans
+4. Satus
+
+All pages can be accessible with full function (Create,Edit,Delete,Details) with logged-in Admin account.  
+Please go to login page and read the insturction at that page, to logged-in as an Admin or User.
 
 ## Features
 
-- Import a HTML file and watch it magically convert to Markdown
-- Drag and drop images (requires your Dropbox account be linked)
-- Import and save files from GitHub, Dropbox, Google Drive and One Drive
-- Drag and drop markdown and HTML files into Dillinger
-- Export documents as Markdown, HTML and PDF
+- An overview page and an add/detail/edit page where the records can be edited.
+- The logged-in user able to delete records from the overview page and/or from the details page.
+- File picker control for selecting files and save them on the server.
+- Restrict parts to users in specific roles.
+- Modifications of the records can be done only by logged-in users.
+- The modified records contain information about the DateTime of creating/editing and the user that created/edited the record.
 
 Markdown is a lightweight markup language based on the formatting conventions
 that people naturally use in email.
