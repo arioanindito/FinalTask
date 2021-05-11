@@ -51,11 +51,11 @@ Please go to login page and read the insturction at that page, to logged-in as a
 
 ## In case you could not restore the database
 I have provided migration but without data seeding. So you should put the essential data manually.
-Essential data:
-1. Role Table
-   RoleId = 1, RoleName = Admin; RoleId = 2, RoleName = User
-2. Users Table
-   UserId = 1, UserName = AdminOne, Password = Admin, RoleId = 1
+Essential data:  
+1. Role Table  
+   RoleId = 1, RoleName = Admin; RoleId = 2, RoleName = User  
+2. Users Table  
+   UserId = 1, UserName = AdminOne, Password = Admin, RoleId = 1  
    UserId = 2, UserName = User, Password = User, RoleId = 2
 
 
