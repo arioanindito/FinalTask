@@ -13,6 +13,9 @@ The project consists of four pages.
 3. Loans
 4. Satus
 
+All pages can be accessible with full function (Create,Edit,Delete,Details) with logged-in Admin account.  
+In order to logged-in as an Admin, please go to login pages and read the insturction at that page.
+
 - Type some Markdown on the left
 - See HTML in the right
 - ✨Magic ✨
