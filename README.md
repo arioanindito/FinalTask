@@ -1,7 +1,7 @@
 # Developing Software System
 ## _The Final Task - Ario Anindito (VUM 2016082)_
 
-This is my final project (Database Library) for Developing Software System module.  
+This is my final project for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
 
 I uploaded my updated database within this project, under the name **Ario_Final.bak**  
@@ -14,7 +14,7 @@ The project consists of four pages.
 4. Satus
 
 All pages can be accessible with full function (Create,Edit,Delete,Details) with logged-in Admin account.  
-In order to logged-in as an Admin, please go to login pages and read the insturction at that page.
+Please go to login page and read the insturction at that page, to logged-in as an Admin or User.
 
 ## Features
 
