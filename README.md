@@ -16,6 +16,30 @@ The project consists of four pages.
 All pages can be accessible with full function (Create,Edit,Delete,Details) with logged-in Admin account.  
 Please go to login page and read the insturction at that page, to logged-in as an Admin or User.
 
+## Book Overview Page
+
+- List of all books
+- CRUD (Create, Read, Update, Delete) a new book along the photo upload with file picker control
+
+
+## Member Page
+
+- List of all members in database
+- CRUD a new member along the status information from status page (e.g Student, Lecturer, Staff, Public)
+
+## Status Page
+
+- List of all member statuses
+- CRUD a new status for borrowers (e.g Student Lecturer, Staff, Publis)
+
+
+## Loans Page
+
+- List of all loans in database
+- CRUD a new loans along the member information from member page
+- 
+
+
 ## Features
 
 - An overview page and an add/detail/edit page where the records can be edited.
