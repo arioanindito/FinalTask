@@ -1,2 +1,2 @@
-# Developing Sytem Software FinalTask
+# Developing Software Sytem FinalTask
 Developing Software Systems Final Task
