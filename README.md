@@ -6,14 +6,6 @@ In order to run the project, please change the string connection to your own ser
 
 I uploaded my updated database within this project, under the name **Ario_Final.bak**  
 Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, picture, etc.  
-In case you could not restore the database, i have provided migration but without data seeding. So you should put the essential data manually.
-Essential data:
-1. Role Table
-   RoleId = 1, RoleName = Admin; RoleId = 2, RoleName = User
-2. Users Table
-   UserId = 1, UserName = AdminOne, Password = Admin, RoleId = 1
-   UserId = 2, UserName = User, Password = User, RoleId = 2
-   
 
 The project consists of four pages.
 1. Book Overview
@@ -55,6 +47,16 @@ Please go to login page and read the insturction at that page, to logged-in as a
 - Restrict parts to users in specific roles.
 - Modifications of the records can be done only by logged-in users.
 - The modified records contain information about the DateTime of creating/editing and the user that created/edited the record.
+
+
+## In case you could not restore the database
+I have provided migration but without data seeding. So you should put the essential data manually.
+Essential data:
+1. Role Table
+   RoleId = 1, RoleName = Admin; RoleId = 2, RoleName = User
+2. Users Table
+   UserId = 1, UserName = AdminOne, Password = Admin, RoleId = 1
+   UserId = 2, UserName = User, Password = User, RoleId = 2
 
 
 [//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
