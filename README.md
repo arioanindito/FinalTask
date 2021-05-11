@@ -6,6 +6,11 @@ In order to run the project, please change the string connection to your own ser
 
 I uploaded my updated database within this project, under the name **Ario_Final.bak**  
 Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, etc.  
+In case you could not restore the database, i have provided migration but without data seeding. So you should put the essential data manually.
+Essential data:
+1. Role Table : Admin, User.
+2. User Table: AdminOne with Admin Role, User with Uer Role.
+
 
 The project consists of four pages.
 1. Book Overview
