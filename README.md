@@ -5,12 +5,15 @@ This is my final project for Developing Software System module.
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
 
 I uploaded my updated database within this project, under the name **Ario_Final.bak**  
-Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, etc.  
+Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, picture, etc.  
 In case you could not restore the database, i have provided migration but without data seeding. So you should put the essential data manually.
 Essential data:
-1. Role Table : Admin, User.
-2. User Table: AdminOne with Admin Role, User with Uer Role.
-
+1. Role Table
+   RoleId = 1, RoleName = Admin; RoleId = 2, RoleName = User
+2. Users Table
+   UserId = 1, UserName = AdminOne, Password = Admin, RoleId = 1
+   UserId = 2, UserName = User, Password = User, RoleId = 2
+   
 
 The project consists of four pages.
 1. Book Overview
