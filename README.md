@@ -30,14 +30,13 @@ Please go to login page and read the insturction at that page, to logged-in as a
 ## Status Page
 
 - List of all member statuses
-- CRUD a new status for borrowers (e.g Student Lecturer, Staff, Publis)
+- CRUD a new status for borrowers (e.g Student Lecturer, Staff, Public)
 
 
 ## Loans Page
 
 - List of all loans in database
 - CRUD a new loans along the member information from member page
-- 
 
 
 ## Features
