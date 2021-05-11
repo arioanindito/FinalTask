@@ -54,11 +54,13 @@ namespace DSS_MVC.Repository
                         photo.CopyTo(fileStream);
                     }
 
-                    Image image = new Image();
-                    image.BookId = book.BookId;
-                    image.Index = newImageIndex;
-                    image.FileName = fileName;
-                    image.Name = book.BookName;
+                    Image image = new Image
+                    {
+                        BookId = book.BookId,
+                        Index = newImageIndex,
+                        FileName = fileName,
+                        Name = book.BookName
+                    };
                     db.Images.Add(image);
                     
                     db.SaveChanges();
