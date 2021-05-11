@@ -1,5 +1,5 @@
 # Developing Software System
-## _The Final Task_
+## _The Final Task_-_Ario_Anindito_(VUM_2016082)
 
 This is my final project (Database Library) for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
@@ -15,10 +15,6 @@ The project consists of four pages.
 
 All pages can be accessible with full function (Create,Edit,Delete,Details) with logged-in Admin account.  
 In order to logged-in as an Admin, please go to login pages and read the insturction at that page.
-
-- Type some Markdown on the left
-- See HTML in the right
-- ✨Magic ✨
 
 ## Features
 
