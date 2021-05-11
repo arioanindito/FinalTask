@@ -1,7 +1,7 @@
 # Developing Software System
 ## _The Final Task_
 
-This is my final project for Developing Software System module. \s\s
+This is my final project for Developing Software System module.  
 In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)
 
 I uploaded my updated database within this project, under the name **Ario_Final.bak**
