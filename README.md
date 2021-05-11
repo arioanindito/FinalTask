@@ -2,10 +2,10 @@
 ## _The Final Task_
 
 This is my final project for Developing Software System module.  
-In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)
+In order to run the project, please change the string connection to your own server. (I'm using SQLEXPRESS)  
 
-I uploaded my updated database within this project, under the name **Ario_Final.bak**
-Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, etc.
+I uploaded my updated database within this project, under the name **Ario_Final.bak**  
+Please restore my backup database to your database server. It contains all the necessery data such as User Role, User Database, seed, etc.  
 
 - Type some Markdown on the left
 - See HTML in the right
